@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "com.lifestyleservice.lifestyle.config.RsaKeyProperties",
+      "sourceType": "com.lifestyleservice.lifestyle.config.RsaKeyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.lifestyleservice.lifestyle.config.RsaKeyProperties"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.lifestyleservice.lifestyle.config.RsaKeyProperties"
+    }
+  ],
+  "hints": []
+}
